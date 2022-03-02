@@ -14,6 +14,7 @@ public class Singleton {
         if (instance == null){
             instance = new Singleton(id,password);
         }
+        //Return out put
         return instance;
     }
 
